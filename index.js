@@ -4,13 +4,13 @@ const {trainingData1} = require('./data.js')
 
 let trainedNet 
 
-const config = {
-  iterations: 10000,
-  binaryThresh: 0.5,
-  hiddenLayers: [20], // array of ints for the sizes of the hidden layers in the network
-  activation: "sigmoid", // supported activation types: ['sigmoid', 'relu', 'leaky-relu', 'tanh'],
-  leakyReluAlpha: 0.01 // supported for activation type 'leaky-relu'
-};
+// const config = {
+//   iterations: 10000,
+//   binaryThresh: 0.5,
+//   hiddenLayers: [], // array of ints for the sizes of the hidden layers in the network
+//   activation: "sigmoid", // supported activation types: ['sigmoid', 'relu', 'leaky-relu', 'tanh'],
+//   leakyReluAlpha: 0.01 // supported for activation type 'leaky-relu'
+// };
 
 function encode(arg) {
       const newArr = [];
@@ -47,8 +47,8 @@ function fixLengths(data) {
   return data;
 }  
 
-function train(data, config) {
-    const net = new brain.NeuralNetwork(config)
+function train(data) {
+    const net = new brain.NeuralNetwork()
     net.train(serialize(data), {log: true})
     trainedNet = net.toFunction()
     console.log('finished training..')
@@ -64,5 +64,5 @@ function execute(input) {
 }
 
 
-train(trainingData1, config)
-console.log(execute("Want to come over?"))
+train(trainingData1)
+console.log(execute("If you come over, I'll think about it"));
