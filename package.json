@@ -1,0 +1,23 @@
+{
+  "name": "ml-practice",
+  "version": "1.0.0",
+  "description": "I'm aiming to practice with brain.js.",
+  "main": "index.js",
+  "dependencies": {
+    "brain.js": "^2.0.0-alpha.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParmeJon/ML-practice.git"
+  },
+  "author": "Jonathan SY Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParmeJon/ML-practice/issues"
+  },
+  "homepage": "https://github.com/ParmeJon/ML-practice#readme"
+}
