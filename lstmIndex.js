@@ -1,8 +1,8 @@
 const brain = require("brain.js");
 const fs = require('fs');
-const {trainingData2} = require("./data.js");
+const {trainingData2} = require("./data/data.js");
 // Trained net function
-const trainedNet = require("./flirty-trained-net.js")
+const trainedNet = require("./data/flirty-trained-net.js")
 
 // const net = new brain.recurrent.LSTM();
 // net.train(trainingData2, {

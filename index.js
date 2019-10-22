@@ -1,5 +1,5 @@
 const brain = require('brain.js')
-const {trainingData1} = require('./data.js')
+const {trainingData1} = require('./data/data.js')
 
 
 let trainedNet 

@@ -1,4 +1,4 @@
-module.exports = function anonymous(rawInput,isSampleI,temperature
+function thirdNet(rawInput,isSampleI,temperature
 ) {
 
   if (typeof rawInput === 'undefined') rawInput = [];

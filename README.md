@@ -1,10 +1,10 @@
 # Simple machine learning projects
 
-I'm aiming to practice with brain.js.
+Is it flirty?
 
 ## Project Idea 
 
-To determine how flirty a text message is from 0 to 1
+To determine how flirty a text message is. 
 
 ## Getting Dataset
 
