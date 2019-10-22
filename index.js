@@ -65,4 +65,4 @@ function execute(input) {
 
 
 train(trainingData1)
-console.log(execute("If you come over, I'll think about it"));
+console.log(execute("I miss you"));
